@@ -1,0 +1,209 @@
+/* BASE */
+
+*,
+*::after, *::before {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+  background-color: #eee;
+  color: #2e2e2e;
+}
+
+.page {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100rem;
+  background-color: #f7f7f7;
+}
+
+/* <-- BASE */
+
+.pre-nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  height: 4.9rem;
+}
+
+.pre-nav ul {
+  display: flex;
+  list-style: none;
+  width: 28rem;
+  justify-content: space-between;
+}
+
+.pre-nav ul li {
+  font-size: 1.5rem;
+  line-height: 3.6rem;
+  font-weight: 700;
+}
+
+.country-currency {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 8.3rem;
+}
+
+.country-currency .currency {
+  font-size: 1.5rem;
+  font-weight: 700; 
+  line-height: 3.6rem;
+} 
+
+.cart {
+  display: flex;
+  align-items: center;
+}
+
+.cart-cost {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 3.6rem;
+}
+
+.sign-up {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 3.6rem;
+}
+
+.sign-up span {
+  color: #f62f5e
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 7.2rem;
+  align-items: center;
+  background-color: #2e2e2e;
+  color: #fff;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  color: #f62f5e;
+  font-weight: 700;
+  line-height: 2.9rem;
+  letter-spacing: .4rem;
+  margin-left: 3.1rem;
+}
+
+.nav-items {
+  width: 438px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  margin-top: 2.9rem;
+}
+
+.nav-icons {
+  width: 8.3rem;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 3rem;
+}
+
+/* <-- NAVBAR */
+
+/* MAIN */
+.main {
+  width: 94rem;
+  margin: auto;
+}
+
+.catalog {
+  height: 33.6rem;
+  margin-top: 2.3rem;
+  background-image: url(../Images/Images-modal4.png)
+}
+
+.catalog .title {
+  display: inline-block;
+  font-family: "Playfair Display";
+  font-size: 7.2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 72px;
+  margin-left: 8rem;
+  margin-top: 3.7rem;
+}
+
+.catalog .categories {
+  width: 75rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 14.4rem;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+  margin-left: 8rem;
+}
+
+.catalog .category {
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 700;
+  line-height: 2.4rem;
+}
+
+.item-container {
+  margin: 2.4rem 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.filter {
+  width: 22rem;
+  height: 69.6rem;
+  background-color: yellowgreen;
+}
+
+.item-list {
+  width: 70rem;
+  height: 69.6rem;
+  background-color: aqua;
+}
+
+.item-single {
+  width: 30rem;
+  height: 33.6rem;
+  background-color: aquamarine;
+  margin-top: 2.4rem;
+}
+
+.bottom-banner {
+  height: 33.6rem;
+  background-image: url(../Images/images-shoe2.png);
+  margin-bottom: 2.4rem;
+}
+
+.footer-top {
+  height: 7.2rem;
+  background-color: #efefef;
+}
+
+.footer-bottom {
+  height: 24.1rem;
+  background-color: #2e2e2e;
+}
